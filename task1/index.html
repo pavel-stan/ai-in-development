@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Expense Calculator</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+   <h1>Expense Calculator</h1>
+   <table id="expenses-table">
+      <thead>
+         <tr>
+            <th>Category</th>
+            <th>Amount ($)</th>
+         </tr>
+      </thead>
+      <tbody id="expenses-body">
+      </tbody>
+   </table>
+   <button id="add-expense-btn">Add Expense</button>
+   <button id="calculate-btn">Calculate</button>
+   <div id="results">
+      <h2>Results</h2>
+      <p id="total-expenses"></p>
+      <p id="average-daily-expense"></p>
+      <h3>Top 3 Largest Expenses</h3>
+      <ul id="top-expenses"></ul>
+   </div>
+
+   <script src="script.js"></script>
+</body>
+
+</html>
